@@ -1,0 +1,9 @@
+[2025-05-27T06:22:53.833Z] Server started
+[2025-05-27T06:22:53.834Z] User logged in
+[2025-05-27T06:22:53.834Z] An error occurred while requesting the database
+[2025-05-27T06:23:33.551Z] Server started
+[2025-05-27T06:23:33.552Z] User logged in
+[2025-05-27T06:23:33.552Z] An error occurred while requesting the database
+[2025-05-27T06:25:35.977Z] Server started
+[2025-05-27T06:25:35.978Z] User logged in
+[2025-05-27T06:25:35.978Z] An error occurred while requesting the database
