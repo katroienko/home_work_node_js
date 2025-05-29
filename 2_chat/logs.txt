@@ -1,0 +1,24 @@
+2025-05-28T12:42:17.132Z - Kat: I am web developer
+2025-05-28T12:42:17.134Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:42:42.976Z - Kat: I am  web developer
+2025-05-28T12:42:42.977Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:42:45.805Z - Kat: I am a studen web developer
+2025-05-28T12:42:45.807Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:42:48.862Z - Kat: I am a student on web developer
+2025-05-28T12:42:48.864Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:42:57.806Z - Kat: I am a student on web development 
+2025-05-28T12:42:57.807Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:43:00.116Z - Kat: I am a student on web development course
+2025-05-28T12:43:00.118Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:43:48.067Z - Kat: I am a student on web development course
+2025-05-28T12:43:48.068Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:43:57.117Z - Kat: I am a student on web development course
+2025-05-28T12:43:57.118Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:44:23.672Z - Kat: I am a student on web development course
+2025-05-28T12:44:23.673Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:44:26.314Z - Kat: I am a student on web development course
+2025-05-28T12:44:26.315Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:44:46.444Z - Kat: I am a student on web development course
+2025-05-28T12:44:46.446Z - Bohdan: I am teacher in IT Career HUB
+2025-05-28T12:46:27.562Z - Kat: I am a student on web development course
+2025-05-28T12:46:27.564Z - Bohdan: I am teacher in IT Career HUB
