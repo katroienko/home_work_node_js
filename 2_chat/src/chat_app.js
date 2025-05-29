@@ -19,7 +19,7 @@ emitter.on('greeting', async({ user, message }) => {
 
     // Обработка события
     const formatted = `${new Date().toISOString()} - ${user}: ${message}`;
-    console.log(formatted);
+    console.log(`formated ${formatted}`);
 
     await fs.appendFile(logFilePath, formatted + '\n');
 });
