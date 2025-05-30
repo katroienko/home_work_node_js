@@ -1,24 +1,27 @@
-import fs from 'node:fs';
+import * as fs from 'node:fs/promises';
+
 const folderName = 'myFolder';
 
-setInterval(() => {
-  fs.mkdir(folderName, (err) => {
-    if (err) {
-      if (err.code === 'EEXIST') {
-        console.log(`Folder "${folderName}" already exists, skipping creation.`);
-      } else {
-        console.error('Error creating folder:', err);
-      }
-    } else {
-      console.log(`Folder "${folderName}" created successfully.`);
+async function createAndRemoveFolder() {
+  try {
+    await fs.mkdir(folderName);
+    console.log(`Folder "${folderName}" created successfully.`);
 
-      fs.rmdir(folderName, (err) => {
-        if (err) {
-          console.error('Error removing folder:', err);
+    await fs.rmdir(folderName);
+    console.log(`Folder "${folderName}" removed successfully.`);
+    return true;
+  } catch (err) {
+    if (err.code === 'EEXIST') {
+      console.log(`Folder "${folderName}" already exists, skipping creation.`);
+      return false;
         } else {
-          console.log(`Folder "${folderName}" removed successfully.`);
-        }
-      });
+      console.error('Error during folder operation:', err);
+      return false;
     }
-  });
-}, 3000); 
+  }
+}
+
+
+const data = await createAndRemoveFolder();
+
+console.log(data);
