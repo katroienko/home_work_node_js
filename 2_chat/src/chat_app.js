@@ -11,15 +11,16 @@ console.log(logFilePath);
 
 
 function sendMessage(user, message, emitter) {
-    emitter.emit('greeting', { user, message })
+    emitter.emit('message', { user, message })
 }
 
-emitter.on('greeting', async({ user, message }) => {
+emitter.on('message', async({ user, message }) => {
     console.log(`${user}: ${message}`)
 
     // Обработка события
     const formatted = `${new Date().toISOString()} - ${user}: ${message}`;
     console.log(`formated ${formatted}`);
+    
 
     await fs.appendFile(logFilePath, formatted + '\n');
 });

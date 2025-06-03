@@ -34,3 +34,5 @@
 2025-05-29T10:05:20.148Z - Bohdan: I am teacher in IT Career HUB
 2025-05-29T10:05:25.615Z - Kat: I am a student on web development course
 2025-05-29T10:05:25.617Z - Bohdan: I am teacher in IT Career HUB
+2025-06-03T09:36:01.257Z - Kat: I am a student on web development course
+2025-06-03T09:36:01.258Z - Bohdan: I am teacher in IT Career HUB
