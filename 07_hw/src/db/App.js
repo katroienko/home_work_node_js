@@ -29,6 +29,6 @@ const App = sequelize.define(
     }
 );
 
-App.sync();
+// App.sync();
 
 export default App;
